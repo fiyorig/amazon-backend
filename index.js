@@ -29,7 +29,7 @@ if(total > 0) {
   console.log(paymentIntent);
 
 res.status(201).json({
-    clintSecret:paymentIntent.client_secret,
+    clientSecret :paymentIntent.client_secret,
 });
 
 }else{
